@@ -19,7 +19,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCode /><br/> C
+        <DiCode /> C
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava /> Java

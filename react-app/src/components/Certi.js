@@ -5,6 +5,7 @@ import c from "../Assets/certi/thinqbator.png";
 import d from "../Assets/certi/cyber.png";
 import e from "../Assets/certi/ec_mern.png"
 import f from "../Assets/certi/ai_linkedin.jpeg"
+import Particle from "./Particle";
 function Certi(){
         
     const openIn=(img)=>{
@@ -15,6 +16,7 @@ function Certi(){
       
 
 <Container fluid className="project-section">
+        
         <h1 className="project-heading">My <strong className="purple">Certifications </strong></h1>
 
         <div className="certiContainer">

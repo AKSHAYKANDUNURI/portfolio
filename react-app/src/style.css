@@ -576,7 +576,7 @@ h1,p{
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 1.5em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -584,7 +584,9 @@ h1,p{
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
@@ -603,7 +605,7 @@ h1,p{
 }
 .tech-icon-images {
   padding: 20px !important;
-  line-height: 1.6 !important;
+  
 }
 
 .quote-card-view {
@@ -785,4 +787,102 @@ h1,p{
 }
 .certiContainer2{
   width: 80%;
+}
+/* Styling for the experience section */
+.project-section {
+  text-align: center;
+  padding: 50px 20px;
+  
+}
+
+/* Styling for the heading */
+.project-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.purple {
+  color: #6a0dad; /* Highlighted text color */
+}
+
+/* Container for experience data */
+.expContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f0eeee15;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Company logo styling */
+.compimg {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Experience details */
+.expData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.expData p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.role {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.comp {
+  font-style: italic;
+  color: white;
+}
+
+.date {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .expContainer {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+      padding: 15px;
+  }
+
+  .compimg {
+      width: 80px;
+  }
+
+  .expData {
+      align-items: center;
+  }
+
+  .expData p {
+      font-size: 1rem;
+  }
+
+  .role {
+      font-size: 1.2rem;
+      color: var(--imp-text-color) !important;
+
+  }
 }
