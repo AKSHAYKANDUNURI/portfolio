@@ -3,8 +3,10 @@ import { Container } from "react-bootstrap";
 import b from "../Assets/certi/simplilear_CPP.png";
 import c from "../Assets/certi/thinqbator.png";
 import d from "../Assets/certi/cyber.png";
-import e from "../Assets/certi/ec_mern.png"
-import f from "../Assets/certi/ai_linkedin.jpeg"
+import e from "../Assets/certi/ec_mern.png";
+import f from "../Assets/certi/ai_linkedin.jpeg";
+import g from "../Assets/certi/Agile certificate.png";
+
 import Particle from "./Particle";
 function Certi(){
         
@@ -44,6 +46,11 @@ function Certi(){
             <img className="certiImg" src={f} alt="" onClick={()=>{openIn(f)}}/>
             </div>
             <h4 className="certiName" >Artificial Intelligence - LinkedIn </h4>
+
+            <div className="certiContainer2">
+            <img className="certiImg" src={g} alt="" onClick={()=>{openIn(g)}}/>
+            </div>
+            <h4 className="certiName" >Agile Software Development - Infosys Springboard </h4>
         </div>
 
         {/* <div className="certiContainer">
